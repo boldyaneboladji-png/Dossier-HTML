@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation de CSS</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(120deg, #fff 60%, #d6e6f2 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #23395d;
+        }
+        header, main, footer {
+            width: 100%;
+            max-width: 900px;
+            margin: auto; 
+        }
+        header {
+            padding-top: 40px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 0.5em;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        section {
+            margin: 2em 0;
+            background: #f3f7fa;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #b9d0e4;
+            padding: 2em 1.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section img {
+            margin: 2em 0;
+            max-width: 90%;
+            border-radius: 12px;
+            box-shadow: 0 1px 5px #cadbe6;
+        }
+        p, li {
+            font-size: 1.2em;
+            line-height: 1.7;
+            text-align: center;
+            margin: 0.9em 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.5em 0;
+            background: #d6e6f2;
+            padding: 0.7em 0;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        footer {
+            margin: 32px auto 16px auto;
+            text-align: center;
+            color: #446688;
+        }
+        a {
+            color: #23395d;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #167bf7;
+        }
+    </style>
+    <link
+</head>
+<body>
+    <header>
+        <h1>Feuilles de style en cascade (CSS)</h1>
+    </header>
+    <main>
+        <section>
+            <p>
+                Les feuilles de style en cascade, généralement appelées CSS (de l'anglais Cascading Style Sheets), forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.
+            </p>
+            <img src="https://audreytips.com/wp-content/uploads/2016/10/unnamed-file.css.jpg" alt="Exemple de code CSS">
+        </section>
+        <section>
+            <p>
+                Le premier principe fondamental des feuilles de style consiste à distinguer nettement deux dimensions complémentaires : d’une part, le code qui décrit le contenu d’une page web — sa structure, son texte et sa sémantique — géré par le langage HTML ; d’autre part, le code qui définit la présentation et la mise en forme — couleurs, polices, positionnement, marges — assuré par le langage CSS.
+            </p>
+            <img src="https://cdn.vectorstock.com/i/750p/45/71/simple-website-css-code-with-colourful-tags-vector-24264571.avif" alt="Syntaxe colorée CSS et HTML">
+        </section>
+        <section>
+            <p>
+                <strong>En somme</strong>, CSS est un langage de feuille de style utilisé pour décrire la présentation d’un document écrit en HTML ou XML, contrôlant ainsi l’apparence visuelle des éléments Web sur les pages Internet. Les commandes CSS sont nombreuses et variées, allant des mises en forme simples (couleurs, polices) aux animations et transformations avancées introduites avec CSS3.
+            </p>
+            <img src="https://www.ionos.fr/digitalguide/fileadmin/_processed_/5/1/csm_css-media-queries_114f8f30b7.webp" alt="Exemple media queries CSS">
+        </section>
+        <section>
+            <h2>Commandes CSS courantes</h2>
+            <ul>
+                <li>Définir la couleur et la police des textes</li>
+                <li>Créer des bordures, ombres et arrondis</li>
+                <li>Réaliser des mises en page flexibles (flexbox, grid)</li>
+                <li>Appliquer des transitions et animations</li>
+                <li>Définir des styles responsives grâce aux media queries</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Ressources complémentaires : 
+            <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">Guide CSS sur MDN</a>
+        </p>
+    </footer>
+</body>
+</html>
+Cette version utilise Flexbox pour centrer le contenu et privilégie la lisibilité visuelle grâce à un design moderne avec ombres, arrondis et couleurs douces. Tout le texte et les images sont centrés, et la page s’adapte bien aux écrans larges ou mobiles.​
